@@ -1,0 +1,395 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background: white;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+body{
+	font: 14px/1.5 Arial;
+	color: white;
+	background: black;
+}
+
+a, a:visited, a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+/***
+Pre-Header and pre-header elements
+***/
+#pre-header{
+	width: 100%;
+	height: 30px; 
+}
+.link:hover{
+    color: #2266ff;
+}
+#telefono, #email, .nombreusuario{
+	display: inline-block; 
+	margin-top: 12px; 
+	font-size: 17px; 
+} 
+#telefono{
+	margin-left: 100px;
+	padding-right: 20px;
+}
+#email{
+	padding-left:21px;
+	border-left: 1px solid white; 
+}
+.nombreusuario{
+        padding-left:180px;
+}
+/*encabezado*/
+header{
+    margin-top: 13px;
+    color: white;
+    width: 100%;
+    height: 113px;
+    font-size: 17px; 
+    border-top: 1px solid white;
+}
+
+#logo{ 
+    margin-left: 75px; 
+}
+#visitanos{
+    text-align: right;
+    margin-left: 412px;  
+}
+#logo, #visitanos{
+    display: inline-block;
+}
+/*MENÚ*/
+.menu{
+    margin-top: 40px; 
+}
+nav
+{
+        margin: auto; 
+	width: 90%;
+	background-color: #3366ff;
+	margin-top: 10px;
+	position: relative;
+	font-size: 14px;
+        height: 60px;
+}
+nav ul
+{
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+    list-style: none;
+    overflow: hidden;	
+    margin-left: 50px;
+}
+nav > ul > li
+{
+	float: left;
+	margin-left: 5px; 
+	padding: 5px;
+        color: black; 
+        margin-bottom: -5px;
+}
+nav ul li a
+{
+	display: block;
+	padding: 10px 17px;
+	color: #171717;
+	text-decoration: none;
+}
+nav ul li a:hover
+{
+        color: #404040;
+}
+nav > ul > li:hover div
+{
+	display: table;
+}
+/*Submenu*/
+nav ul li .doc
+{
+    margin: AUTO;
+    width: 50%;
+    position: absolute;
+    background-color:whitesmoke;
+    display: none;
+    height: 126px;
+}
+nav ul li .doc ul
+{
+    margin-left: 0px;
+}
+nav ul li .doc ul li
+{
+    display: table-cell;
+    border-right: 3px solid white;
+    padding:0 10px;
+}
+nav ul li .doc ul li a:hover
+{
+    background-color: rgba(17,17,17,0.3);
+}
+nav ul li .doc ul li:last-child
+{
+    border: none;
+}
+nav ul li .do
+{
+    margin: AUTO;
+    width: 18%;
+    position: absolute;
+    background-color:whitesmoke;
+    display: none;
+    height: 55px;
+}
+nav ul li .do ul
+{
+    margin-left: 0px;
+}
+nav ul li .do ul li
+{
+    padding:0 5px 0 10px;
+}
+nav ul li .do ul li a:hover
+{
+    background-color: rgba(17,17,17,0.3);
+}
+
+/*centro*/
+section{
+    width: 100%;
+    height: 312px; 
+    border-top: 1px solid white;
+    text-align: center; 
+}
+
+#h12{
+	margin-top: 20px; 
+} 
+
+article{
+    display:inlne-block;
+    margin-top:212px; 
+    width: 440px;
+    height: 239px; 
+    text-align: center;
+    font-size: 40px;   
+    margin-left:480px;
+}
+.articlenew{
+    margin-top:212px; 
+    text-align: center;
+    font-size: 40px;   
+    margin-left:40px;
+}
+.tipousu{
+    height: 50px;
+    width: 200px;
+    font-size: 15px; 
+}
+.texto{
+    font-size: 15px;
+    margin-left:5px;
+}
+.texto, .tipousu{
+    display: inline-block;
+}
+
+
+select[type="tipo"]
+{
+    height: 30px;
+    width: 190px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-left: 21px;
+    border: none;
+}
+#barra
+{
+    background-color: whitesmoke;
+    color:black;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+}
+h3{
+    background-color: black;
+    color:whitesmoke;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+}
+
+.contenidoo
+{
+    width: 500px;
+    height: 750px;
+    text-align: center;
+    background-color: black;
+    margin-top: 175px;
+    margin-left: 421px;
+    
+}
+.contenidoo img
+{
+    width: 80px;
+    height: 80px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.contenidoo h2
+{
+    padding-bottom: 20px;
+    color:whitesmoke;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3366ff;
+}
+
+/*pie del programa*/
+footer{
+    margin-top: 190px;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+}
+
+.contenido
+{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: black;
+    margin-top: 175px;
+    margin-left: 421px;
+    
+}
+.contenido img
+{
+    width: 80px;
+    height: 80px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.contenido h2
+{
+    padding-bottom: 20px;
+    color:whitesmoke;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3366ff;
+}
+.input
+{
+    height: 40px;
+    width: 310px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding-left: 10px;
+    border: none;
+}
+.input:focus
+{
+    border-bottom:  solid #3ACF98 .2rem;
+}
+.textarea
+{
+    font-family: Arial;
+    min-width: 310px;
+    min-height: 40px;
+    max-width: 310px;
+    max-height: 100px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding:10px;
+    border: none;
+}
+.textarea:focus
+{
+    border-bottom:  solid #3ACF98 .2rem;
+}
+.btn_submint
+{
+    margin-top: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    color:#212121;
+    border-radius: 5px;
+    border:none;
+    background-color: #3366ff;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 15px;
+}
+.btn_submint:hover
+{
+    background-color: #171717;
+    color:white;
+}
+table{
+    margin:auto; 
+}
+/* factura */
+.contefactura{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    margin-top: 150px;
+}
+.formatodescuento{
+    text-align: center; 
+    width: 500px;
+    height: 80px; 
+    
+}
+.formatoiva{ 
+    text-align: center; 
+    width: 500px;
+    height: 80px; 
+    
+}
+.formatodescuento, .formatoiva{
+    display: inline-block;
+    padding-left: 40px; 
+}
+
+.formatobuscliente{
+    margin-top:50px;
+    text-align: center; 
+    width: 800px;
+    margin-left: 273;
+}
+.formatobusproducto{ 
+    margin-top:50px;
+    text-align: center; 
+    width: 800px; 
+    margin-left: 273;
+}
+
+
+.botonimprimir{
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    width:100%; 
+    height: 40px; 
+}
+
+
+

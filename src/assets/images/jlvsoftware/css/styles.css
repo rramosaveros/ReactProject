@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background: white;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+body{
+	font: 14px/1.5 Arial;
+	color: white;
+	background: black;
+}
+
+a, a:visited, a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+/***
+Pre-Header and pre-header elements
+***/
+#pre-header{
+	width: 100%;
+	height: 30px; 
+}
+
+#telefono, #email{
+	display: inline-block; 
+	margin-top: 12px; 
+	font-size: 17px; 
+} 
+#telefono{
+	margin-left: 100px;
+	padding-right: 20px;
+}
+#email{
+	padding-left:21px;
+	border-left: 1px solid white; 
+}
+/*encabezado*/
+header{
+    margin-top: 13px;
+    color: white;
+    width: 100%;
+    height: 113px;
+    font-size: 17px; 
+    border-top: 1px solid white;
+}
+
+#logo{ 
+    margin-left: 100px; 
+}
+#visitanos{
+    text-align: right;
+    margin-left: 300px;  
+}
+#logo, #visitanos{
+    display: inline-block;
+}
+#barra
+{
+    background-color: whitesmoke;
+    color:black;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+}
+
+/*centro*/
+section{
+    width: 100%;
+    height: 312px; 
+    border-top: 1px solid white;
+    text-align: center; 
+}
+
+#h12{
+	margin-top: 20px; 
+} 
+
+article{
+    margin-top:-30px; 
+    width: 440px;
+    height: 239px; 
+    text-align: center;
+    font-size: 19px;
+}
+.contenido
+{
+    width: 400px;
+    height: 230px;
+    text-align: center;
+    background-color: black;
+    margin-left: 489px;
+    margin-top: 120px;
+}
+.contenido img
+{
+    width: 80px;
+    height: 80px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+input[type="text"],input[type="password"]
+{
+    height: 30px;
+    width: 310px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-left: 50px;
+    border: none;
+}
+
+select[type="tipo"]
+{
+    height: 30px;
+    width: 190px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-left: 15px;
+    border: none;
+}
+
+.tipousu{
+    height: 50px;
+    width: 200px;
+    font-size: 15px; 
+}
+.texto{
+    font-size: 15px;
+}
+.btn-login
+{
+    padding: 8px 30px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    background-color: #3366ff;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px; 
+    font-size: 15px;
+    font: Arial; 
+}
+.btn-login:hover
+{
+    background-color: #171717;
+    color:white;
+}
+a
+{
+    color: whitesmoke;
+    
+}
+.form-inpu{
+    font-family: Arial;
+}
+.texto, .tipousu{
+    display: inline-block;
+}
+.cust
+{
+    position: absolute;
+    color: #3366ff;
+    margin-right: 20px;
+    width: 44px;
+    height: 36px;
+    padding-top: 7px; 
+}
+
+
+h3{
+    background-color: black;
+    color:whitesmoke;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+}
+/*pie del programa*/
+footer{
+    margin-top: 120px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}

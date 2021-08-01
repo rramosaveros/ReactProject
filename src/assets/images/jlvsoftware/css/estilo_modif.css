@@ -1,0 +1,47 @@
+.tablatrabajador{
+     width:100%; 
+     color: red; 
+     border-top: 1px solid white;
+}
+.tablatrabajador2{
+     margin-top: 120px; 
+     width:100%; 
+}
+table
+{
+    margin: auto;
+}
+.tabla
+{
+    margin: auto;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    color:black; 
+}
+.tabla tr td
+{
+    padding: 5px;
+    border: 1px solid black;
+}
+.tabla tr:nth-child(1)
+{
+    background-color: #3366ff;
+    color: black;
+    font-size: 15px;
+    height: 60px;
+}
+.tabla tr:nth-child(1) td
+{
+    padding: 0 10px;
+}
+h6
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
